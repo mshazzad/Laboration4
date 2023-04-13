@@ -9,7 +9,7 @@ public class CalculatorTests {
     @Test
     void canAddNumber() {
         int result = calculator.add(3,6);
-        Assertions.assertEquals(result, 9);
+        Assertions.assertEquals(result, 8);
     }
     @Test
     void canAddNumberWithPlusMinus() {
