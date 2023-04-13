@@ -1,5 +1,8 @@
 package com.example.Laboration4;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class Calculator {
 
     public int add(int a, int b) {

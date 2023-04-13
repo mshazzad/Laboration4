@@ -2,6 +2,8 @@ package com.example.Laboration4;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+
 @SpringBootTest
 public class CalculatorTests {
     Calculator calculator =new Calculator();
@@ -46,7 +48,6 @@ public class CalculatorTests {
         double result = calculator.getArea(18);
         Assertions.assertEquals(result,1017.88);
     }
-
 
     @Test
     void canFindNaNDuringGetArea() {
